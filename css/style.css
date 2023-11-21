@@ -5,6 +5,10 @@
 }
 :root{
     --tomato: hsl(4, 100%, 67%);
+    --darkGrey: hsl(234, 29%, 20%);
+    --charcoalGrey: hsl(235, 18%, 26%);
+    --grey:hsl(231, 7%, 60%);
+    --white:hsl(0, 0%, 100%);
 }
 body{
     margin: 0;
@@ -45,4 +49,30 @@ li::before{
     left: -2rem;
     top: -.9rem;
     font-size: 2rem;
+}
+
+label{
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+}
+
+input{
+    width: 84%;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid #000;
+    margin-bottom: 1.2rem;
+    text-indent: 1rem;
+}
+button{
+    width: 95%;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    background-color: var(--darkGrey);
+    color: var(--white);
+    font-weight: 600;
 }
