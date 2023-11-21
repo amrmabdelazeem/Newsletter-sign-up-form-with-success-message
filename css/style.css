@@ -1,5 +1,14 @@
+@font-face {
+    font-family: Roboto;
+    src: url("/assets/fonts/Roboto-Regular.ttf"),url("/assets/fonts/Roboto-Bold.ttf");
+    font-weight: normal, bold;
+}
+:root{
+    --tomato: hsl(4, 100%, 67%);
+}
 body{
     margin: 0;
+    font-family: Roboto;
 }
 .image-section{
     height: 295px;
@@ -8,9 +17,32 @@ body{
     border-bottom-right-radius: 20px;
 }
 
-h1{
+.signup-section{
     padding-left: 1.5rem;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+p{
+    line-height: 1.5;
 }
 ul{
     padding-left: 1.5rem;
+}
+li{
+    list-style: none;
+    position: relative;
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    line-height: 1.5;
+}
+
+li::before{
+    content: url("/assets/images/icon-list.svg");
+    position: absolute;
+    left: -2rem;
+    top: -.9rem;
+    font-size: 2rem;
 }
