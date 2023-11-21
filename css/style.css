@@ -1,0 +1,6 @@
+.image-section{
+    height: 295px;
+    background-image: url("../assets/images/illustration-sign-up-mobile.svg");
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+}
