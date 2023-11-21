@@ -11,8 +11,15 @@
     --white:hsl(0, 0%, 100%);
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
     font-family: Roboto;
+}
+.container{
+    display: none;
 }
 .image-section{
     height: 295px;
@@ -26,8 +33,8 @@ body{
 }
 
 h1{
-    font-weight: bold;
-    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 2.3rem;
 }
 p{
     line-height: 1.5;
@@ -62,9 +69,13 @@ input{
     width: 84%;
     border-radius: 5px;
     padding: 1rem;
-    border: 1px solid #000;
+    border: 1px solid var(--grey);
     margin-bottom: 1.2rem;
     text-indent: 1rem;
+}
+input:focus{
+    border: 2px solid var(--charcoalGrey);
+    outline: 0;
 }
 button{
     width: 95%;
@@ -75,4 +86,28 @@ button{
     background-color: var(--darkGrey);
     color: var(--white);
     font-weight: 600;
+    cursor: pointer;
+}
+
+span{
+    font-weight: 600;
+}
+
+.subscribe{
+    padding-left: 1.5rem;
+}
+
+.subscribe-heading{
+    margin-top: 4rem;
+}
+
+.subscribe-button{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: end;
+}
+
+img{
+    width:3rem;
 }
