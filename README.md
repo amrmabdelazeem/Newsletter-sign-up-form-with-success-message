@@ -31,10 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
+Mobile workflow:
 ![Mobile-view](oTq9n02JhU.jpg)
 
+Desktop workflow:
 ![Desktop-view](ITaQcbRP3E.jpg)
 
+States and Error/Sucess:
 ![Error-states](VNspur1wTI.jpg)
 
 ### Links
