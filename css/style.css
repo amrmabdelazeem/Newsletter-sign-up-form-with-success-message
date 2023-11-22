@@ -64,7 +64,7 @@ label{
 
 input{
     width: 84%;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
     border: 1px solid var(--grey);
     margin-bottom: 1.2rem;
@@ -76,7 +76,7 @@ input:focus{
 }
 button{
     width: 95%;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
     border: 1px solid #000;
     margin-bottom: 2rem;
@@ -123,7 +123,7 @@ img{
     display: none;
 }
 
-@media (min-width:1400px){
+@media (min-width:1200px){
     body{
         justify-content: center;
         background-color: var(--charcoalGrey);
@@ -131,7 +131,7 @@ img{
     .container{
         display: grid;
         grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 400px;
+        grid-template-columns: 500px 400px;
         gap:50px;
         padding: 2rem;
         background-color: var(--white);
@@ -152,6 +152,26 @@ img{
     }
 
     h1{
-        font-size: 4rem;
+        font-size: 4.3rem;
+    }
+    p{
+        font-size: 1.2rem;
+        padding-right: 2rem;
+    }
+    li{
+        font-size: 1.2rem;
+    }
+
+    label{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    input{
+        font-size: 1.2rem;
+    }
+    button{
+        font-size: 1.2rem;
+        width: 91%;
+        padding: 1.5rem;
     }
 }
