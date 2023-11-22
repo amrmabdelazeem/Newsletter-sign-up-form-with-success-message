@@ -62,6 +62,18 @@ label{
     padding-bottom: .5rem;
 }
 
+.error{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: .7rem;
+    font-weight: 800;
+    width: calc(85% - 10%);
+    text-align: end;
+    color: var(--tomato);
+    /* visibility: hidden; */
+}
+
 input{
     width: 84%;
     border-radius: 10px;
@@ -69,6 +81,7 @@ input{
     border: 1px solid var(--grey);
     margin-bottom: 1.2rem;
     text-indent: 1rem;
+    cursor: pointer;
 }
 input:focus{
     border: 2px solid var(--charcoalGrey);
@@ -166,6 +179,9 @@ img{
     label{
         font-size: 1rem;
         padding-bottom: 1rem;
+    }
+    .error{
+        width: calc(80% - 10%);
     }
     input{
         font-size: 1.2rem;
