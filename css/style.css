@@ -71,7 +71,7 @@ label{
     width: calc(85% - 10%);
     text-align: end;
     color: var(--tomato);
-    /* visibility: hidden; */
+    display: none;
 }
 
 input{
@@ -135,6 +135,9 @@ img{
 
 .secret{
     display: none;
+}
+.showing{
+    display: inline-block;
 }
 
 @media (min-width:600px){
