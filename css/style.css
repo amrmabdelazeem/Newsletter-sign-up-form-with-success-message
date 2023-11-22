@@ -112,7 +112,6 @@ span{
 
 .subscribe{
     padding-left: 1.5rem;
-    display: none;
 }
 .sub-heading{
     margin-bottom: 4.4rem;
@@ -134,7 +133,7 @@ img{
 }
 
 .secret{
-    display: none;
+    display: none !important;
 }
 .showing{
     display: inline-block;
