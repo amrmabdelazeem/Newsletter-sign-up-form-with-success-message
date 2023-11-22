@@ -17,9 +17,6 @@ body{
     margin: 0;
     font-family: Roboto;
 }
-.container{
-    display: none;
-}
 .image-section{
     height: 295px;
     background-image: url("../assets/images/illustration-sign-up-mobile.svg");
@@ -118,4 +115,8 @@ img{
     position: relative;
     top: 9rem;
     width: 91%;
+}
+
+.secret{
+    display: none;
 }
