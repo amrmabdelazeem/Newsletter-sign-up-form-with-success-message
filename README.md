@@ -32,18 +32,18 @@ Users should be able to:
 ### Screenshot
 
 Mobile workflow:
-![Mobile-view](oTq9n02JhU.jpg)
+![Mobile-view](pu6vFFGlS6.jpg)
 
 Desktop workflow:
-![Desktop-view](ITaQcbRP3E.jpg)
+![Desktop-view](rPxrffAVLI.jpg)
 
 States and Error/Sucess:
-![Error-states](VNspur1wTI.jpg)
+![Error-states](xR757N2qVa.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend-mentor](https://www.frontendmentor.io/solutions/newslettersignupformwithsuccessmessage-with-css-grid-IcOUclkWGb)
+- Live Site URL: [Github-Pages](https://amrmabdelazeem.github.io/Newsletter-sign-up-form-with-success-message/)
 
 ## My process
 
